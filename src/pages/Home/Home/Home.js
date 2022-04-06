@@ -5,6 +5,7 @@ import Client from "../Client/Client";
 import Clients from "../Clients/Clients";
 import Discount from "../Discount/Discount";
 import FAQ from "../FAQ/FAQ";
+import MobileClient from "../MobileClient/MobileClient";
 import Plan from "../Plan/Plan";
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
         </div>
       </Plan>
       <Clients></Clients>
+      <MobileClient></MobileClient>
       <Rightness></Rightness>
       <FAQ></FAQ>
       <Plan>

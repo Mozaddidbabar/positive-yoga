@@ -34,9 +34,9 @@ const users = [
 ];
 const Clients = () => {
   return (
-    <div className="max-w-screen-xl	 mx-auto my-12">
+    <div id="hidemobile" className="max-w-screen-xl	 mx-auto my-12">
       <h1 className=" sm:text-left ml-3 lg:text-center lg:ml-0 font-bold text-3xl mb-5">
-        Hear success stories from out clients
+        Here success stories from out clients
       </h1>
       <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-8">
         {users.map((user) => (
