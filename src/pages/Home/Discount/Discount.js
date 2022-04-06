@@ -22,7 +22,7 @@ const Discount = () => {
   };
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   useEffect(() => {
-    const timer = setTimeout(() => {
+    setTimeout(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
   });

@@ -10,12 +10,9 @@ import p7 from "../../../assets/ICONS whats in my program/7.svg";
 import payment from "../../../assets/SafeCheckout.png";
 import check from "../../../assets/CheckIcon.svg";
 const Plan = ({ children }) => {
-  // console.log(children);
   const [borde1, setBorder1] = useState(1);
   const [border2, setBorder2] = useState(0);
   const [border3, setBorder3] = useState(0);
-
-  // const [active, setActive] = useState(0);
 
   return (
     <div className="mt-10 flex justify-center items-center">

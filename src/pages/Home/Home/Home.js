@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../../../shared/Header/Header";
 import Rightness from "../../Rightness/Rightness";
-import Client from "../Client/Client";
 import Clients from "../Clients/Clients";
 import Discount from "../Discount/Discount";
 import FAQ from "../FAQ/FAQ";

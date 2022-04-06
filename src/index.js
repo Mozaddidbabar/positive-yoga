@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "tw-elements";
-import "flowbite";
+// import "flowbite";
 
 ReactDOM.render(
   <React.StrictMode>

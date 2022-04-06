@@ -2,9 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import "./Client.css";
-import Rating from "react-rating";
+
 const Client = ({ user }) => {
-  const { name, img, description, star, place } = user;
+  const { name, img, description, place } = user;
   const element = <FontAwesomeIcon icon={faStar} />;
 
   return (

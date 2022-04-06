@@ -1,11 +1,9 @@
 import React from "react";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import emily from "../../../assets/testimonials/Emily.png";
 import kylie from "../../../assets/testimonials/Kylie.png";
 import jesica from "../../../assets/testimonials/Jesica.png";
 import Client from "../Client/Client";
-const element = <FontAwesomeIcon icon={faStar} />;
 const users = [
   {
     name: "Emiley, 28",
